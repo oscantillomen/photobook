@@ -4,7 +4,7 @@ class SignUp extends Component{
   render(){
     return (
       <section>
-        <form>
+        <form class="form">
           <h2>Registro</h2>
           <label 
             for="name">Nombre</label>

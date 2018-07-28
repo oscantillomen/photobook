@@ -4,7 +4,7 @@ class PasswordRecovery extends Component{
   render(){
     return (
       <section>
-          <form>
+          <form class="form">
             <h2>Recuperar clave</h2>
             <input
               type="email"
