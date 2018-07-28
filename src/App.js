@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 
@@ -11,12 +10,16 @@ import TimeLine from './Components/TimeLine'
 import Post from './Components/Post'
 import Profile from './Components/Profile'
 
+import "bootstrap/dist/css/bootstrap.min.css"
+import logo from './logo.svg';
+
 class App extends Component {
   render() {
     return (
       <main>
         <Header />
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1><img src={logo} className="App-logo" alt="logo" /></h1>
+
         <SignIn />
         <SignUp />
         <PasswordRecovery />
